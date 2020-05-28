@@ -1,8 +1,11 @@
 {
-  "name": "opentok-accelerator-core",
+  "name": "@bouncedinc/opentok-accelerator-core",
   "version": "2.0.15",
   "description": "Opentok Accelerator Core",
-  "repository": "https://github.com/opentok/accelerator-core-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opentok/accelerator-core-js.git"
+  },
   "main": "dist/core.js",
   "scripts": {
     "build:node": "babel -d ./dist/ ./src/",
@@ -58,5 +61,12 @@
   },
   "dependencies": {
     "opentok-solutions-logging": "^1.0.7"
+  },
+  "bugs": {
+    "url": "https://github.com/opentok/accelerator-core-js/issues"
+  },
+  "homepage": "https://github.com/opentok/accelerator-core-js#readme",
+  "directories": {
+    "test": "test"
   }
 }
