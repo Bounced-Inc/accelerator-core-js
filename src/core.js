@@ -302,7 +302,7 @@ class AccCore {
       try {
         switch (packageName) {
           case 'opentok-text-chat':
-            result = require('opentok-text-chat');
+            result = require('@bouncedinc/opentok-text-chat');
             break;
           case 'opentok-screen-sharing':
             result = require('opentok-screen-sharing');
