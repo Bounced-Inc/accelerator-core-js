@@ -14,11 +14,11 @@
   "dependencies": {
     "babel-polyfill": "^6.23.0",
     "classnames": "^2.2.5",
-    "opentok-annotation": "*",
-    "opentok-archiving": "*",
-    "opentok-screen-sharing": "*",
-    "opentok-solutions-css": "*",
-    "opentok-text-chat": "*",
+    "@bouncedinc/opentok-annotation": "*",
+    "@bouncedinc/opentok-archiving": "*",
+    "@bouncedinc/opentok-screen-sharing": "*",
+    "@bouncedinc/opentok-solutions-css": "*",
+    "@bouncedinc/opentok-text-chat": "*",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-spinner": "^0.2.6"

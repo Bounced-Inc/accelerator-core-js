@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Spinner from 'react-spinner';
 import classNames from 'classnames';
-import 'opentok-solutions-css';
+import '@bouncedinc/opentok-solutions-css';
 
 import Core from './ot-core/core';
 import logo from './logo.svg';
