@@ -29,9 +29,9 @@
   "author": "adrice727@gmail.com",
   "license": "MIT",
   "devDependencies": {
-    "@bouncedinc/opentok-annotation": "^2.0.60",
-    "@bouncedinc/opentok-archiving": "^1.0.21",
-    "@bouncedinc/opentok-screen-sharing": "^1.0.33",
+    "@bouncedinc/opentok-annotation": "^2.0.63",
+    "@bouncedinc/opentok-archiving": "^1.0.23",
+    "@bouncedinc/opentok-screen-sharing": "^1.0.35",
     "@bouncedinc/opentok-text-chat": "^1.0.32",
     "babel-cli": "*",
     "babel-eslint": "^6.1.2",
