@@ -29,6 +29,8 @@
   "author": "adrice727@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "@bouncedinc/opentok-annotation": "^2.0.60",
+    "@bouncedinc/opentok-screen-sharing": "^1.0.33",
     "@bouncedinc/opentok-text-chat": "^1.0.32",
     "babel-cli": "*",
     "babel-eslint": "^6.1.2",
@@ -54,9 +56,7 @@
     "karma-mocha": "^1.3.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "mocha": "^4.0.1",
-    "opentok-annotation": "^2.0.55",
     "opentok-archiving": "^1.0.19",
-    "opentok-screen-sharing": "^1.0.27",
     "replace": "^0.3.0"
   },
   "dependencies": {
