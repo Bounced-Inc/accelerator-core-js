@@ -305,13 +305,13 @@ class AccCore {
             result = require('@bouncedinc/opentok-text-chat');
             break;
           case 'opentok-screen-sharing':
-            result = require('opentok-screen-sharing');
+            result = require('@bouncedinc/opentok-screen-sharing');
             break;
           case 'opentok-annotation':
-            result = require('opentok-annotation');
+            result = require('@bouncedinc/opentok-annotation');
             break;
           case 'opentok-archiving':
-            result = require('opentok-archiving');
+            result = require('@bouncedinc/opentok-archiving');
             break;
           default:
             break;
