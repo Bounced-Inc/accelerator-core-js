@@ -104,8 +104,9 @@ class Communication {
     return new Promise((resolve, reject) => {
       const onPublish = publisher => (error) => {
         if (error) {
-          reject(error);
           analytics.log(logAction.startCall, logVariation.fail);
+          triggerEvent('error', error.message);
+          reject(error);
         } else {
           analytics.log(logAction.startCall, logVariation.success);
           state.addPublisher('camera', publisher);
