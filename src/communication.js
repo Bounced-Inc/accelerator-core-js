@@ -113,7 +113,16 @@ class Communication {
         }
       };
 
-      const publishToSession = publisher => session.publish(publisher, onPublish(publisher));
+      const publishToSession = (publisher) => {
+        // if no connection exists, this means the client disconnected during or immediately after OT.initPublisher is called.
+        // we need to destroy the publisher to avoid a media stream leak
+        if (!session.connection) {
+          publisher.destroy();
+          return Promise.resolve();
+        }
+
+        return session.publish(publisher, onPublish(publisher));
+      };
 
       const handleError = (error) => {
         analytics.log(logAction.startCall, logVariation.fail);
