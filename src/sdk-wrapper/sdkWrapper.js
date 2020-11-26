@@ -367,7 +367,7 @@ class OpenTokSDK {
   }
 }
 
-if (global === window) {
+if (typeof window !== "undefined" && global === window) {
   window.OpenTokSDK = OpenTokSDK;
 }
 

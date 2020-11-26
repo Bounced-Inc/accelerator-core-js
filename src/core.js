@@ -654,7 +654,7 @@ class AccCore {
 
 }
 
-if (global === window) {
+if (typeof window !== "undefined" && global === window) {
   window.AccCore = AccCore;
 }
 
